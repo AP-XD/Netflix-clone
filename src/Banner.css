@@ -1,0 +1,55 @@
+.banner {
+  position: relative;
+  height: 448px;
+  color: white;
+  background-size: cover;
+  background-image: url("https://gmedia.playstation.com/is/image/SIEPDC/netflix-page-banner-desktop-02-en-10nov20?$native--t$");
+  background-position: center center;
+}
+.banner__contents {
+  margin-left: 40px;
+  padding-top: 144px;
+  height: 190px;
+}
+.banner__title {
+  letter-spacing: 0.1rem;
+  font-size: 3rem;
+  font-weight: 800;
+  padding-bottom: 0.3rem;
+}
+.banner__description {
+  padding-top: 1rem;
+  width: 43rem;
+  line-height: 1.2;
+  font-size: 1rem;
+  max-width: 360px;
+  height: 80px;
+}
+.banner__fadeBottom {
+  height: 7.5rem;
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgba(39, 39, 39, 0.527),
+    #000
+  );
+}
+.banner__button {
+  cursor: pointer;
+  color: #fff;
+  outline: none;
+  border: none;
+  font-weight: 800;
+  border-radius: 0.5vw;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-right: 1rem;
+  padding-top: 0.6rem;
+  background-color: rgba(49, 49, 49, 0.521);
+  padding-bottom: 0.5rem;
+  transition: all 0.5s;
+}
+.banner__button:hover {
+  color: #000;
+  background-color: rgba(255, 255, 255, 0.918);
+}

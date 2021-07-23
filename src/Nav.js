@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./Nav.css";
 
-function .Nav() {
+function Nav() {
   const [show, handleShow] = useState(false);
 
   const transitionNavBar = () => {
